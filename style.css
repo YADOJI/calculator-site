@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(59, 70, 100);
+}
+
+.container {
+    background-color: rgb(59, 70, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 29%;
+}
+
+.display {
+    display: block;
+    height: 17vh;
+    width: 100%;
+    background-color: rgb(24, 31, 50);
+    margin: 20px 0;
+    border-radius: .8vw;
+    text-align: right;
+    font-size: 3vw;
+    color: aliceblue;
+    outline: none;
+}
+
+.keypad{
+    display: flex;
+    background-color: #252d44;
+    margin: 0px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: .8vw;
+}
+button {
+    height: 7vh;
+    width: 5.6vw;
+    margin: 0px 10px;
+    font-size: 1.2vw;
+    font-weight: 700;
+    background-color: #eae3db;
+    color: #3b4664;
+    border-radius: .6vw;
+
+}
+#reset {
+    width: 43%;
+    font-size: 1.2vw;
+    background-color: #647299;
+    color: azure;
+}
+#equal {
+    width: 43%;
+    font-size: 2vw;
+    background-color: #d13f30;
+    color: azure;
+}
+#del{
+    background-color: #647299;
+    color: azure;
+}
