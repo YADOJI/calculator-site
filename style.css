@@ -71,3 +71,17 @@ button {
     background-color: #647299;
     color: azure;
 }
+@media (max-width: 600px) {
+    .container{
+        width: 50%;       
+    }
+    button {
+        width: 7.3vw;
+    }
+    #reset {
+        width: 39%;
+    }
+    #equal {
+        width: 39%;
+    }
+}
